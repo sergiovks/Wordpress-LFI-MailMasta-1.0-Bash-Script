@@ -1,4 +1,4 @@
-# Wordpress LFI MailMasta 1.0 Bash-Script
+# Wordpress LFI MailMasta 1.0 Bash Script
 
 # This script is used for taking advantage of a Local File Inclusion in the Wordpress mail masta plugin version 1.0, it's made in bash
 
