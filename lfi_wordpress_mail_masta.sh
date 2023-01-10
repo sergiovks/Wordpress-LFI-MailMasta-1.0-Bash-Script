@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function ctrl_c(){
-  echo -e "\n\n [!] Escaping...\n"
+  echo -e "\n\n [!] Leaving...\n"
   exit 1
 }
 
