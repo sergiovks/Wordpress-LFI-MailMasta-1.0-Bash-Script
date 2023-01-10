@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function ctrl_c(){
-  echo -e "\n\n [!] Saliendo...\n"
+  echo -e "\n\n [!] Escaping...\n"
   exit 1
 }
 
@@ -14,14 +14,14 @@ declare -i parameter_counter=0
 function fileRead(){
   filename=$1
 
-  echo -e "\n[+] Este es el contenido del archivo $filename:\n"
+  echo -e "\n[+] This is the content of the file $filename:\n"
   curl -s -X GET "http://192.168.129.128/h3l105/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=$filename"
 }
 
 function helpPanel(){
-  echo -e "\n[i] Uso:\n"
-  echo -e "\th) Mostrar este panel de ayuda"
-  echo -e "\tf) Proporcionar ruta absoluta del archivo a leer\n"
+  echo -e "\n[i] Use:\n"
+  echo -e "\th) Show this help panel"
+  echo -e "\tf) Provide absolute path of the file to read\n"
   exit 0
 }
 
